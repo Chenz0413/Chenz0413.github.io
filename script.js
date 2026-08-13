@@ -1,7 +1,4 @@
 const mapSpotsLayer = document.querySelector(".map-spots");
-const spotsKey = "zac-homepage:map-spots";
-const spotsVersionKey = "zac-homepage:map-spots-version";
-const currentSpotsVersion = "2026-08-13-final-map-v3";
 
 const defaultSpots = [
   {
@@ -55,21 +52,7 @@ const defaultSpots = [
   },
 ];
 
-const loadSpots = () => {
-  if (localStorage.getItem(spotsVersionKey) !== currentSpotsVersion) {
-    localStorage.setItem(spotsKey, JSON.stringify(defaultSpots));
-    localStorage.setItem(spotsVersionKey, currentSpotsVersion);
-    return defaultSpots;
-  }
-
-  try {
-    return JSON.parse(localStorage.getItem(spotsKey)) || defaultSpots;
-  } catch {
-    return defaultSpots;
-  }
-};
-
-let mapSpots = loadSpots();
+const mapSpots = defaultSpots;
 
 const renderSpots = () => {
   if (!mapSpotsLayer) return;
