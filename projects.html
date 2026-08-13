@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Zhaowei Chen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-mark" href="index.html">Zhaowei Chen</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">About Me</a>
+        <a class="is-active" href="projects.html">Projects</a>
+        <a href="gallery.html">Gallery</a>
+        <button class="music-toggle" type="button" aria-label="Play rainy jazz background music">
+          <span aria-hidden="true"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="project-page">
+      <section class="project-hero" aria-labelledby="project-title">
+        <p class="eyebrow">Optical systems / metrology / simulation</p>
+        <h1 id="project-title">Projects & Experience</h1>
+        <p>
+          A selected record of optical engineering work across industry,
+          research labs, and collaborative instrument-development projects.
+        </p>
+      </section>
+
+      <section class="skills-section" aria-labelledby="skills-title">
+        <div class="section-kicker">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">Technical Toolkit</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-block">
+            <h3>Optics</h3>
+            <p>
+              Imaging optical design, physical optics simulation, optical
+              metrology, tolerance analysis, wavefront sensing, signal
+              processing, system automation, and deflectometry.
+            </p>
+          </article>
+
+          <article class="skill-block">
+            <h3>Software</h3>
+            <p>
+              Zemax, MATLAB, Python, and AI coding.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-section" aria-labelledby="experience-title">
+        <div class="section-kicker">
+          <p class="eyebrow">Working Experience</p>
+          <h2 id="experience-title">Industry Work</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" id="inflatable-antenna">
+            <figure class="project-media contain">
+              <img src="Project/img/apple.png" alt="Apple project visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">May 2025 - Aug. 2025 / Cupertino, CA</p>
+              <h3>Optical Engineer Intern, Apple Inc.</h3>
+              <p>
+                At Apple, I worked on a light-field microscope system for 4D
+                measurement, contributing to tolerance analysis, alignment
+                planning, calibration, and implementation. I also developed
+                Python-based measurement automation and data-processing workflows
+                for quantitative sample characterization and irradiance
+                measurement.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="euv-mirror">
+            <figure class="project-media contain">
+              <img src="Project/img/Leia.jpg" alt="Leia Inc. display metrology visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Jun. 2022 - Jul. 2023 / Menlo Park, CA</p>
+              <h3>Display Optical Metrology Engineer, Leia Inc.</h3>
+              <p>
+                At Leia Inc., I established optical metrology workflows for
+                micro-imprinted glasses-free 3D display panels. I quantified
+                moire, crosstalk, and image quality, then connected measured
+                optical performance with manufacturing fidelity through close
+                collaboration with design and fabrication teams.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" id="bessel-alignment">
+            <figure class="project-media contain">
+              <img src="Project/img/Transcelestial.png" alt="Transcelestial laser communication visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Jun. 2021 - Aug. 2021 / Singapore</p>
+              <h3>Optical Engineer Intern, Transcelestial</h3>
+              <p>
+                I worked at Transcelestial on wireless laser communication
+                systems, redesigning the beacon-system camera in Zemax with a
+                projected 332% optical-efficiency improvement. The work also
+                included tolerance-aware design optimization, supplier
+                communication, budget-conscious component sourcing, and
+                ball-lens fiber coupling exploration for robust laser-fiber
+                alignment.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-section" aria-labelledby="selected-title">
+        <div class="section-kicker">
+          <p class="eyebrow">Selected Projects</p>
+          <h2 id="selected-title">Featured Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <figure class="project-media cover">
+              <img src="Project/img/BESSEL wavefront sensing.png" alt="Bessel beam wavefront sensing project visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Aug. 2025 - Present / University of Arizona</p>
+              <h3>Large Dynamic Range Wavefront Sensing with Bessel Beam</h3>
+              <p>
+                I came up with a Bessel-beam wavefront-sensing architecture and
+                developed a hybrid PINN and gradient-descent phase-retrieval
+                framework. The work was validated against interferometer
+                measurements, achieving 0.37 lambda average surface RMSE and a
+                60 lambda peak-to-valley recoverable dynamic range.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media cover">
+              <video src="Project/img/NASA%20Temporal%20Modulation%20Signal%20.mp4" muted loop playsinline controls></video>
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Jan. 2026 - Present / NASA</p>
+              <h3>Temporal Modulation Signal Extraction for Coronagraphic Imaging</h3>
+              <p>
+                For coronagraphic imaging research, I developed a
+                signal-processing pipeline to extract sub-nanometer temporal
+                modulation from telescope primary-mirror data under ultra-low
+                signal-to-noise conditions.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media fit">
+              <img src="Project/img/large aperture inflatable.png" alt="Large aperture inflatable antenna project visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Jan. 2026 - Present / FreeFall Aerospace</p>
+              <h3>Deflectometry Metrology of Large-Aperture Inflatable Space Antenna</h3>
+              <p>
+                I set up a deflectometry system for full-aperture surface
+                characterization of a 1 m inflatable primary reflector under
+                high vacuum, operating at approximately 10^-5 Torr. The work
+                combined MATLAB and Zemax API workflows to improve surface
+                reconstruction, evaluate repeatability, and quantify transient
+                optical response.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media fit">
+              <img src="Project/img/samsung.png" alt="Samsung EUV mirror project visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Aug. 2024 - Apr. 2025 / Samsung</p>
+              <h3>Thermal Variation Study on the Athermal EUV Mirror with Deflectometry</h3>
+              <p>
+                I worked with the team at Samsung to develop an ultra-precise
+                deflectometry approach for Cordierite EUV mirror surface-profile
+                metrology and thermal-expansion evaluation, reaching
+                approximately 3 nm precision.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media cover">
+              <img src="Project/img/Fireball.jpg" alt="FIREBall-2 spectrometer simulator visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">May 2024 - May 2025 / NASA</p>
+              <h3>FIREBall-2 Spectrometer Alignment Simulator</h3>
+              <p>
+                I led the optical design, tolerance analysis, and implementation
+                of a simulator for FIREBall-2 spectrometer alignment
+                verification. I coordinated with vendors for custom optics,
+                managed lead times, brought up simulator hardware, and performed
+                optical simulations with tolerances and aberrations to match
+                experimental observations.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-media fit">
+              <img src="Project/img/bessel%20beam%20for%20alighment%20.jpg" alt="Bessel beam optical alignment visual" />
+            </figure>
+            <div class="project-copy">
+              <p class="project-time">Aug. 2023 - Dec. 2024 / Optical Perspectives Group</p>
+              <h3>Bessel Beam for Optical Alignment</h3>
+              <p>
+                I developed MATLAB and Zemax wave-propagation simulations of
+                Bessel beams in misaligned systems for precision optical
+                alignment. The work numerically validated Bessel-beam
+                propagation as a quasi-paraxial ray model for practical optical
+                systems.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="project-section honors-section" aria-labelledby="honors-title">
+        <div class="section-kicker">
+          <p class="eyebrow">Honors & Awards</p>
+          <h2 id="honors-title">Recognition</h2>
+        </div>
+
+        <div class="honors-list">
+          <article class="honor-item">
+            <p class="project-time">2026</p>
+            <h3>Jack Jewell Endowed Research Award for Extreme Optics</h3>
+            <p>
+              Recognized by the University of Arizona Wyant College of Optical
+              Sciences for Ph.D. research that pushes perceived limits in
+              optical technology.
+            </p>
+          </article>
+
+          <article class="honor-item">
+            <p class="project-time">2023</p>
+            <h3>U.S. Army Capt. John E. Tipton Graduate Student Endowed Scholarship</h3>
+            <p>
+              Awarded to a promising first-year Optical Sciences graduate
+              student demonstrating academic excellence, creative thinking, and
+              a broader commitment to service.
+            </p>
+          </article>
+
+          <article class="honor-item">
+            <p class="project-time">2021</p>
+            <h3>Jean M. Bennett Award</h3>
+            <p>
+              An optical-sciences honor reflecting strong academic performance
+              and promise in optical engineering.
+            </p>
+          </article>
+
+          <article class="honor-item">
+            <p class="project-time">2019</p>
+            <h3>Sophomore Optical Engineering Award</h3>
+            <p>
+              Recognized early achievement and momentum in undergraduate optical
+              engineering study.
+            </p>
+          </article>
+
+          <article class="honor-item">
+            <p class="project-time">2018</p>
+            <h3>E2 Global Capstone Design Grand Prize</h3>
+            <p>
+              Won first-place grand prize at the Global Capstone Design Fair for
+              a freeform-optics LED headlight concept developed with a
+              Rose-Hulman student team.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="music.js"></script>
+    <script src="site-protection.js"></script>
+  </body>
+</html>
