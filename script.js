@@ -1,53 +1,53 @@
 const mapSpotsLayer = document.querySelector(".map-spots");
 const spotsKey = "zac-homepage:map-spots";
 const spotsVersionKey = "zac-homepage:map-spots-version";
-const currentSpotsVersion = "2026-08-12-location-set-v1";
+const currentSpotsVersion = "2026-08-13-final-map-v3";
 
 const defaultSpots = [
   {
     id: "ningbo",
-    x: 80.0,
-    y: 43.9,
+    x: 78.9,
+    y: 37.4,
     name: "Ningbo, China",
     time: "Where everything began",
     logo: "Web_image/Map/Ningbo.jpg",
   },
   {
     id: "kanazawa",
-    x: 82.5,
-    y: 41.3,
+    x: 83,
+    y: 31.3,
     name: "Kanazawa, Japan",
     time: "2018 / Kanazawa Institute of Technology",
     logo: "Web_image/Map/kanasawa.png",
   },
   {
     id: "singapore",
-    x: 73.8,
-    y: 60.2,
+    x: 75.5,
+    y: 55.4,
     name: "Singapore",
     time: "2021 / Transcelestial",
     logo: "Web_image/Map/images.png",
   },
   {
     id: "terre-haute",
-    x: 24.4,
-    y: 39.6,
+    x: 18.8,
+    y: 28,
     name: "Terre Haute, IN",
     time: "2017-2022 / Rose-Hulman",
     logo: "Web_image/Map/rose-hulman.svg",
   },
   {
     id: "tucson",
-    x: 18.9,
-    y: 44.1,
+    x: 14.4,
+    y: 33.1,
     name: "Tucson, AZ",
     time: "2023-2027 / University of Arizona",
     logo: "Web_image/Map/university-of-arizona.svg",
   },
   {
     id: "bay-area",
-    x: 14.1,
-    y: 40.4,
+    x: 12.2,
+    y: 28.9,
     name: "Bay Area, CA",
     time: "2022-2023, 2025 / Leia Inc, Apple",
     logo: "Web_image/Map/Leia.png",
