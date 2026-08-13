@@ -319,6 +319,11 @@ h1::after {
   user-select: none;
 }
 
+.map-canvas {
+  position: relative;
+  width: 100%;
+}
+
 .world-map {
   display: block;
   width: 100%;
@@ -330,7 +335,7 @@ h1::after {
 
 .map-spots {
   position: absolute;
-  inset: clamp(1.5rem, 4vw, 3rem) 0;
+  inset: 0;
   pointer-events: none;
 }
 
@@ -932,14 +937,9 @@ h1::after {
     text-align: left;
   }
 
-  .world-map {
+  .map-canvas {
     width: 190%;
     transform: translateX(-20%);
-  }
-
-  .map-spot {
-    left: 15.8%;
-    top: 45%;
   }
 
   .project-page {
