@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /assets/
-Disallow: /Gallery/
-Disallow: /Project/
-Disallow: /Web_image/
+Allow: /
+
+Sitemap: https://www.chenz11.com/sitemap.xml
